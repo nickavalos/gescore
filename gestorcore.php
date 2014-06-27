@@ -5,7 +5,7 @@ require_once( JPATH_COMPONENT.DS.'controller.php' );
 
 /*  Definicion de nombres de tablas */
 define('TABLE_EDITORIAL', '#__editorial');
-define('TABLE_CONGRESO', '#__congreso');
+define('TABLE_CONGRESO', '#__congreso'); 
 define('TABLE_EDICION', '#__edicion');
 define('TABLE_REVISTA', '#__revista');
 define('TABLE_ISSUE', '#__issue');
