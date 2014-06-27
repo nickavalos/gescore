@@ -1,0 +1,45 @@
+<html>
+    <body>
+        <div id="dialog-form_addCongreso" title="Nuevo Congreso" class="dialog-form" hidden>
+            <br><p class="validateTips">Formulario para añadir un nuevo congreso.</p>
+            <form>
+                <table><tr>
+                    <td><fieldset id="fieldEntidadPublicadora">
+                        <legend> Entidad Publicadora (EP)</legend>    
+                        <label for="nomEntidad">Nombre</label>
+                        <input type="text" name="nomEntidad" id="nomEntidad" class="dialog-ok text ui-widget-content ui-corner-all" />
+                        <label for="acronimoEntidad">Acrónimo de la entidad</label>
+                        <input type="text" name="acronimoEntidad" id="acronimoEntidad" class="dialog-ok text ui-widget-content ui-corner-all" />
+                        <label for="linkEntidad">Link de la entidad</label>
+                        <input type="text" name="linkEntidad" id="linkEntidad" class="dialog-ok text ui-widget-content ui-corner-all" placeholder="http://"/>
+                        <label for="periodicidadEntidad">Periodicidad (meses)</label>
+                        <input type="number" name="periodicidadEntidad" id="periodicidadEntidad" class="selectorSpinnerEdicion dialog-ok text ui-widget-content ui-corner-all" />
+                    </fieldset></td>
+                    <td><fieldset id="fieldEditorial">
+                        <legend> Editorial de la EP </legend>
+                        <table id="tableEscogerEditorial">
+                            <tr>
+                                <td><input type="radio" name="radioEntidadPublicadora" value="editorialExistente" id="editorialExistente" checked> Editorial Existente </td>
+                            </tr>
+                            <tr>
+                                <td><input type="radio" name="radioEntidadPublicadora" value="nuevaEditorial" id="nuevaEditorial"> Nueva Editorial </td>
+                            </tr>
+                        </table>
+                        <div id="existenteEditorialEntidad">    
+                            <select name="editorialEntidad" id="selectEditorialesEntidad" size="14">                    
+                            </select>
+                        </div>
+                        <div id="nuevaEditorialEntidad" hidden>    
+                            <label for="nomEditorial">Nombre de la Editorial</label>
+                            <input type="text" name="nomEditorial" id="nomEditorial" class="dialog-ok text ui-widget-content ui-corner-all" />
+                            <label for="siglasEditorial">Siglas de la editorial</label>
+                            <input type="text" name="siglasEditorial" id="siglasEditorial" class="dialog-ok text ui-widget-content ui-corner-all" />
+                            <label for="linkEditorial">Link de la editorial</label>
+                            <input type="text" name="linkEditorial" id="linkEditorial" class="dialog-ok text ui-widget-content ui-corner-all"  placeholder="http://"/>
+                        </div>
+                    </fieldset></td>    
+                </tr></table>
+            </form>
+        </div>
+    </body>
+</html>

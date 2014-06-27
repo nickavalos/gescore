@@ -1,0 +1,487 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 28-nov-2013, 19:45:43
+    Author     : Nick Avalos
+*/
+
+#element-box .m {
+    font-size: 12px;
+}
+
+form input, form textarea, form select{
+    font-size: 12px;
+    font-family: Arial;
+}
+
+.font_size_11px {
+    font-size: 11px;
+}
+
+.tableGeneralEditarAnadir > tbody > tr > td{
+    padding-bottom: 1em;
+    padding-top: 1em;
+}
+
+.margenIzquierdo-3 {
+    padding-left:3em;
+}
+
+.sololectura { 
+  background-color: #eeeeee; 
+} 
+
+.iconInput, .ui-datepicker-trigger {
+    padding-left: 1em;
+    vertical-align: middle; 
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+.gescore_width_100{
+    width: 100%;
+};
+
+
+#selectorCongreso_editar {
+    width:225px;
+}
+
+
+.dialog-form input.text { margin-bottom:12px; width:95%; padding: .4em; }
+//.dialog-form fieldset {font-size:90%;}
+//.dialog-form fieldset {font-size:90%; padding:0; border:0; margin-top:25px; }
+.ui-dialog .ui-state-error { padding: .3em; }
+//.dialog-form.validateTips { border: 1px solid transparent; padding: 0.3em; }
+
+.validateTips {
+     border: 1px solid transparent; 
+     padding: 0.3em; 
+}
+
+div.dialog-form {
+    //font-size: 90%;
+    text-align:left;
+}
+
+.ui-dialog-titlebar {
+    font-size: 95%;
+    text-align:center;
+}
+.ui-dialog-buttonset {
+    font-size: 100%;
+}
+
+.table_alignTop tr td {
+    vertical-align: top;
+}
+
+.table_alignBottom tr td span{
+    padding-left: 3px;
+    alignment-adjust: middle;
+}
+#tableEscogerTipoEdicion {
+    margin-bottom: 8px;
+}
+
+
+#tableEscogerEditorial {
+    padding-top: 0.7em;
+}
+#fieldEditorial, #fieldEntidadPublicadora {
+    width: 240px;
+    height: 270px;
+}
+#fieldEditorialRevista, #fieldRevista {
+    width: 240px;
+    height: 335px;
+}
+.fieldMinSize{
+    min-width: 240px;
+    min-height: 270px;
+}
+#selectEditorialesEntidad {
+    width: 235px;
+}
+
+.addEdicionIssue_mismoTamano {
+    width: 340px;
+    //height: 670px;
+}
+
+
+.add_entidadPublicadora_div{
+    padding-left: 2em;
+}
+
+#add_congreso, #add_revista {
+    margin-top: 0.3em;
+    margin-right: 70px;
+    float: right;
+}
+#reloadCongresoActual {
+    margin-top: 1px;
+    margin-left: 4px;
+}
+
+.topicosEntidades { 
+    border: 0px;
+    overflow: auto;
+    width: 100%;
+}
+.topicosCongresoRevista, .topicosSimilares_topico { 
+    border: 0px;
+    padding: 1em;
+    //min-width: 350px;
+    //overflow: auto;
+    //max-width: 400px;
+    //font-size: 105%;
+}
+
+#listTopicosSeleccionados {
+    min-width: 50%;
+    overflow: auto;
+    max-width: 60%;
+}
+#otrosTopicosWidget #inputAddTopico {
+    min-width: 50%;
+    max-width: 60%;
+}
+
+#topicosSeleccionados select {
+    background: #eeeeee;
+}
+
+#topicosSeleccionados p {
+    margin: 0px 0px 0px 10px;
+}
+
+#tableValoracion_info {
+    vertical-align: text-top;
+}
+
+#valoracion_info {
+    height: 140px;
+    top: 0px;
+    //bottom: 0px;
+    overflow-y:auto;
+    width: 100%;
+}
+/*
+.ui-icon {
+    float: left;
+    margin: 0 7px 20px 0;
+}*/
+
+
+#issnRevista { 
+    width: 25em; 
+}
+
+.ui-autocomplete-loading {
+    background: white url('../imgs/loading.gif') right center no-repeat;
+}
+
+.ui-autocomplete {
+    max-height: 200px;
+    overflow-y: auto;
+    /* prevent horizontal scrollbar */
+    overflow-x: hidden;
+}
+
+.ui-widget {
+    //font-size: 10%;
+}
+
+.ui-autocomplete-category {
+    font-weight: bold;
+    padding: .2em .4em;
+    margin: .8em 0 .2em;
+    line-height: 1.5;
+}
+
+
+/**************BUSCADOR***************/
+
+#filter-bar .filter-search input{
+    height: 16px;
+    font-size: 105%;
+}
+#filter-bar .filter-search label{
+    padding-top: 2px;
+}
+
+#filter-bar .checkIncluirTopicos {
+    padding-left: 2em;
+    padding-top: 5px;
+}
+
+#search_subfiltros {
+    color: #025aa9; 
+    background: #F4F4F4; 
+    border-top: 1px solid #ccc;
+}
+
+#submenu-box {
+    position: relative;
+    z-index: 5;
+}
+
+/*****************ADD CONGRESO*******************/
+
+.form_addEntidadLeft, .form_addEntidadRight {
+    width: 400px;
+}
+
+#tableInfoTab, .form_addEntidad {
+    display: block;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form_addEdicionIssue {
+    //text-align: left;
+    width: 930px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form_addEdicionIssue input.text { margin-bottom:12px; width:70%; padding: .4em; }
+.form_addEdicionIssue label { margin-bottom:-1px; margin-top:10px; width: 95% }
+
+.form_addEntidad input.text { margin-bottom:12px; width:95%; padding: .2em}
+.form_addEntidad label:not(.noResize) { margin-bottom:0px; margin-top:10px; width: 95% }
+.form_addEntidadLeft label, .form_addEntidadRight label { margin-bottom:3px; margin-top:10px; width: 95%; padding-top: 5px; }
+
+.form_addEntidad {
+    display: block;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*
+.dialog-form input.text { margin-bottom:12px; width:95%; padding: .4em; }
+.dialog-form fieldset {font-size:90%;}
+//.dialog-form fieldset {font-size:90%; padding:0; border:0; margin-top:25px; }
+.ui-dialog .ui-state-error { padding: .3em; }
+//.dialog-form.validateTips { border: 1px solid transparent; padding: 0.3em; }
+
+.validateTips {
+     border: 1px solid transparent; 
+     padding: 0.3em; 
+}
+
+div.dialog-form {
+    font-size: 90%;
+    text-align:left;
+}*/
+
+/*sortable*/
+.sortable_entidad { list-style-type: none; margin: 0; padding: 0; width: 101%; padding-top: 0.5em; }
+.sortable_entidad li { margin: 0 7px 7px 3px; padding: 0.4em; padding-left: 1.5em; font-size: 1.2em; height: 0.5em; }
+.sortable_entidad li .ui-icon { position: absolute; margin-left: -1.3em; margin-top: -0.4em;}
+//.sortable_entidad li input  { width: 94%;}
+.sortable_entidad li .close_cat { position: absolute; margin-top: -0.5em;}
+.sortable_entidad .inputCategoria{ margin-top: -0.5em; width: 94%; height: 1.3em;}
+
+
+/*********seccion graficos************/
+.graphicSection {
+    //min-width: 300px;
+    max-width: 95%;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+#tableResultsSearch {
+    position: relative;   /*Panel will "push" the content down */
+    top:  -20px;
+}
+
+.font_size_105 {
+    font-size: 105%;
+}
+
+.font_size_110 {
+    font-size: 110%;
+}
+/*
+.topicosOptions tabla_topicos{
+    width: 1000px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;   
+}*/
+
+#topicosSeleccionados .topicosSeleccionados_deleteTopico {
+     display: inline-block;
+     width: 100%;
+     margin-left: 36%;
+     padding-bottom: 10px;
+}
+
+#tableNuevosTopicos {
+    width: 100%;
+    max-width: 1500px;
+}
+
+#tableNuevosTopicos input, .datosEdicion input {
+    height:15px;
+    border-radius: 3px; /* CSS3 */
+}
+#tableNuevosTopicos input[name="nuevoTopico[]"] {
+    width: 95%;
+    //min-width: 400px;
+}
+#tableNuevosTopicos input[name="descripcionNuevoTopico[]"] {
+    width: 80%;
+    //min-width: 600px;
+}
+
+.datosEdicion input:not(.noResize){
+    width: 83%;
+}
+
+#checkIncluirDescripcion {
+    padding-left: 15px;
+    display: block;
+}
+
+#otrosTopicosWidget {
+    padding-left: 30px;
+    //background: black;
+}
+
+.divTopicosFromEntidad {
+    width:938px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#div_nuevosTopicos{ //view: nueva edición
+    display: block;
+    width: 100%;
+    padding-left: 30px;
+    padding-bottom: 15px;
+}
+
+#tableValoraciones .chosen-container  {
+    min-width: 500px;
+    //max-width: 600px;
+    width: 100%;
+}
+
+.div_addValoracion{
+    margin-top: 1em;
+    text-align: center;
+}
+
+#div_selectorCongreso #div_reloadCongresoActual, #div_reloadRevistaActual{
+    //display: table-cell;
+    float: right;
+    margin-right: 30px;
+}
+
+#tableValoraciones {
+    width: 1100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#tableValoraciones .selectorCategoriaCalidad {
+    max-width: 80%;
+}
+
+/*Nuevo topico*/
+
+#dialog-form_addTopico textArea#descripcionTopico{
+    width: 95%;
+}
+
+#nuevoTopico_similares .criterioBusqueda {
+    width: 95%;
+}
+
+#nuevoTopico_similares #listSimilaresSeleccionados {
+    width: 95%; 
+    margin: 0px 5px 0px 5px; 
+    overflow-x: auto;
+}
+
+#nuevoTopico_similares .topicosSimilares_deleteTopico {
+    float: right;
+}
+
+/******************************IMPORT*************************************/
+
+#import_checkboxes {
+    width: 550px; 
+    background-color: #efffef;
+    padding-bottom: 0px;
+}
+
+#import_checkboxes .content{
+    display: table;
+    width: 100%;
+}
+#import_checkboxes .import_row {
+    display: table-row;
+    text-align: center;
+    border-bottom: 1px solid #eee;
+}
+
+#import_checkboxes .import-cell {
+    display: table-cell;
+    vertical-align: top;
+}
+
+#import_pagination {
+    display: block;
+    width: 220px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/****************SIMPLE EXPAND***********************/
+
+div.accordion_imports {
+    margin-left: 30px;
+}
+
+div.accordion_imports .expanded  {
+    padding-left: 13px;
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-image: url('../imgs/expanded.gif');
+}
+
+div.accordion_imports .collapsed  {
+    padding-left: 13px;
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-image: url('../imgs/collapsed.gif');
+}
+
+div.accordion_imports .content ul li {
+    margin-bottom: 5px;
+}
+
+#import_log_correctos .jui_alert_message_area {
+    border: 1px solid #00be45;
+    background: #E5FFE6;
+}
+
+#import_log_correctos, #import_log_incorrectos {
+    margin: 5px 5px 5px 5px;
+}

@@ -1,0 +1,19 @@
+.txt {
+    font-size: smaller
+}
+
+.style1 {color: #0859A6}
+
+.greybg {background-color: #EFEFEF}
+
+.whitebg {background-color: #FFFFFF}
+
+.txtRedBold {font-weight: bold; COLOR: #FF0000}
+
+DT, DD {FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif}
+OL, UL, LI {FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif}
+P, H1, H2, H3, H4 {FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif}
+TD, TR, TABLE {FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif}
+FONT {FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif}
+BODY {FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif}
+.noDeco{text-decoration:none}
