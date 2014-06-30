@@ -1,0 +1,42 @@
+/**
+ * This file is part of the project Gestor de Congresos y Revistas en Joomla (GesCORE).
+ *
+ * @package		GesCORE frontend 
+ * @subpackage  - 
+ * @copyright   Copyright (C) 2014 Open Source Matters, Inc. All rights reserved.
+ * @authors		Nick Avalos, Enric Mayol, Mª José Casany
+ * @link		https://github.com/nickavalos/gescore
+ * @license		License GNU General Public License
+ *
+ * GesCORE is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * GesCORE is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with GesCORE. If not, see <http://www.gnu.org/licenses/>.
+ */
+.txt {
+    font-size: smaller
+}
+
+.style1 {color: #0859A6}
+
+.greybg {background-color: #EFEFEF}
+
+.whitebg {background-color: #FFFFFF}
+
+.txtRedBold {font-weight: bold; COLOR: #FF0000}
+
+DT, DD {FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif}
+OL, UL, LI {FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif}
+P, H1, H2, H3, H4 {FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif}
+TD, TR, TABLE {FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif}
+FONT {FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif}
+BODY {FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif}
+.noDeco{text-decoration:none}
